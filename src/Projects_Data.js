@@ -30,7 +30,7 @@ export default [
     },
     {   
         id: 5,
-        title: 'HELB USSD',
+        title: 'HELB USSD APP',
         link:  'https://linkedin.com/in/tony-o-softwaredev/',
         image:'helbapp.png',
         category: '.mobile',
