@@ -17,6 +17,19 @@ export default function Contacts() {
         </section>
         <section className='contacts-content py-3'>
             <p className='contacts-header d-flex flex-column align-items-center text-center wow zoomIn'>Feel free to reach out for projects and collaborations.</p>
+       
+            <section className='d-flex flex-column break align-items-center'>
+        <form>
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+       
         <section className=' d-flex flex-column break align-items-center'>
             <section className='d-flex flex-column gap-3 align-items-center my-4 flex-sm-row justify-content-sm-around gap-lg-5'>
                 <div className='d-flex flex-column wow gap-2 slideInUp justify-self-center mb-sm-2 paragraph'>
