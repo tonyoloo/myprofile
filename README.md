@@ -1,3 +1,22 @@
+
+
+# Project Name: Tony Oloo Profile
+
+# Author: Tony Oloo
+
+Description:
+AwesomeProject is a web application that helps users organize their tasks and manage their time efficiently. With intuitive features such as task categorization, priority setting, and deadline tracking, AwesomeProject aims to streamline your workflow and boost productivity.
+
+Project Setup Instructions:
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
