@@ -4,8 +4,8 @@
 
 # Author: Tony Oloo
 
-Description:
-AwesomeProject is a web application that helps users organize their tasks and manage their time efficiently. With intuitive features such as task categorization, priority setting, and deadline tracking, AwesomeProject aims to streamline your workflow and boost productivity.
+# Description:
+ my profile updated portfolio
 
 Project Setup Instructions:
 
