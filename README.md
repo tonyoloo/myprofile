@@ -13,7 +13,7 @@
 
 
 # Copyright and License Information:
-© 2024 John Doe. All rights reserved.
+© 2024 Tony Oloo. All rights reserved.
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
