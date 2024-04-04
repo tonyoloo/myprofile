@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myprofile/static/css/main.926cc11c.css",
-    "main.js": "/myprofile/static/js/main.ad6ce6b4.js",
+    "main.css": "/myprofile/static/css/main.7d03ef7f.css",
+    "main.js": "/myprofile/static/js/main.be6c6f7c.js",
     "static/media/jj.jpg": "/myprofile/static/media/jj.2deb414f8e1e99cd96b2.jpg",
     "static/media/Poppins-ExtraLight.ttf": "/myprofile/static/media/Poppins-ExtraLight.333cb30c20e31999802a.ttf",
     "static/media/Poppins-Light.ttf": "/myprofile/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
@@ -10,11 +10,11 @@
     "static/media/Poppins-Bold.ttf": "/myprofile/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/jj-sm.jpg": "/myprofile/static/media/jj-sm.4d0dc8bb0edc67c5f744.jpg",
     "index.html": "/myprofile/index.html",
-    "main.926cc11c.css.map": "/myprofile/static/css/main.926cc11c.css.map",
-    "main.ad6ce6b4.js.map": "/myprofile/static/js/main.ad6ce6b4.js.map"
+    "main.7d03ef7f.css.map": "/myprofile/static/css/main.7d03ef7f.css.map",
+    "main.be6c6f7c.js.map": "/myprofile/static/js/main.be6c6f7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.926cc11c.css",
-    "static/js/main.ad6ce6b4.js"
+    "static/css/main.7d03ef7f.css",
+    "static/js/main.be6c6f7c.js"
   ]
 }
