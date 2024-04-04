@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+
+
+# Project Name: Tony Oloo Profile
+
+# Author: Tony Oloo
+
+# Description:
+ my profile updated portfolio
+
+ # link to live site on GitHub Pages
+
+ https://tonyoloo.github.io/myprofile/
+
+
+# Copyright and License Information:
+© 2024 Tony Oloo. All rights reserved.
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+# Project Setup Instructions:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
@@ -68,5 +90,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# myprofile
-# myprofile
+

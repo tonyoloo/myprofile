@@ -1,8 +1,30 @@
 import React from 'react'
 import Wow from 'wowjs'
 import { useEffect } from 'react';
+import emailjs from 'emailjs-com';
 
 export default function Contacts() {
+
+    function sendEmail(e) {
+
+        const success = document.getElementById("success");
+        const button = document.getElementById("buttonsent");
+        const failed = document.getElementById("failed");
+        e.preventDefault();
+    
+        emailjs.sendForm('gmail', 'template_csfdEZiA', e.target, 'user_zu7p2b3lDibMCDutH5hif')
+          .then((result) => {
+              console.log(result.text);
+              success.classList.add('show');
+              button.classList.add('show');
+              failed.classList.remove('show');
+          }, (error) => {
+              console.log(error.text);
+              failed.classList.add('show');
+          });
+      }
+
+
     var wow = new Wow.WOW({live: false});
     var iconsFill = '#7e7e7eea';
 
@@ -17,6 +39,28 @@ export default function Contacts() {
         </section>
         <section className='contacts-content py-3'>
             <p className='contacts-header d-flex flex-column align-items-center text-center wow zoomIn'>Feel free to reach out for projects and collaborations.</p>
+            <div className='contacts pt-4 pb-1 px-2 d-flex justify-content-center' id='contacts'>
+
+            <div className='col-md-6'>
+            <div className="form-side">
+            <form className="formcontact" onSubmit={sendEmail}>
+                <label>Name</label>
+                <input type="text" name="user_name" required />
+                <label>Email</label>
+                <input type="email" name="user_email" required />
+                <label>Message</label>
+                <textarea name="message" required />
+                <div id='success' className='hide'>Your message has been sent...</div>
+                <div id='failed' className='hide'>Message failed...</div>
+                <button type="submit" id='buttonsent'>
+                  <span className="shine"></span>
+                  <span>Send</span>
+                </button>
+              </form>
+            </div>
+          </div>          </div>
+
+       
         <section className=' d-flex flex-column break align-items-center'>
             <section className='d-flex flex-column gap-3 align-items-center my-4 flex-sm-row justify-content-sm-around gap-lg-5'>
                 <div className='d-flex flex-column wow gap-2 slideInUp justify-self-center mb-sm-2 paragraph'>

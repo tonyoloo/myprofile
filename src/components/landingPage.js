@@ -16,7 +16,7 @@ export default function Home() {
     <div className='landingPage d-sm-flex justify-content-center align-items-center' id='home'>
       
       <div className='landing-bo bg- p-3 p-md-0 d-flex justify-content-center justify-content-md-center gap-md-2 container-fluid flex-column flex-md-row bg-succes gap-2 align-items-center '>
-        <img src='/images/download.png' className='image_sm d-md-none my-2' />
+        <img src='/myprofile/images/download.png' className='image_sm d-md-none my-2' />
         <div className='landing-items col-10 col-md-6 d-flex bg-dange flex-column justify-content-center py-3 py-md-0 m-md-0 gap-4 gap-md-3 justify-content-sm-aroun justify-content-md-between justify-content-xl-between justify-content-xxl-around align-items-center'>
 
           <div className='landing-text text-center bg-dange col-12'>
@@ -42,7 +42,7 @@ export default function Home() {
           </div>
 
         </div>
-        <img src='/images/download.png' className='image_md d-none d-md-block' />
+        <img src='/myprofile/images/download.png' className='image_md d-none d-md-block' />
 
       </div>
       
