@@ -51,7 +51,7 @@ export default function Projects() {
           <div className="  wow zoomIn">
               <div className="img-place project-card ">
                 <img
-                  src={`/images/projects/${project.image}`}
+                  src={`/myprofile/images/projects/${project.image}`}
                   alt="screenshot"
                   className='img-fluid'
                 />

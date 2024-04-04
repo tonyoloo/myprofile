@@ -42,7 +42,7 @@ export default function Home() {
           </div>
 
         </div>
-        <img src='/images/download.png' className='image_md d-none d-md-block' />
+        <img src='/myprofile/images/download.png' className='image_md d-none d-md-block' />
 
       </div>
       
