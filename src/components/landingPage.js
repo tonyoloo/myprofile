@@ -22,7 +22,7 @@ export default function Home() {
           <div className='landing-text text-center bg-dange col-12'>
             <h2 className='title text-uppercase text-center wow fadeInLeft'>Tony <span className='brian'>Oloo</span></h2>
             <Typed
-                    strings={['Web and Mobile Developer.', 'USSD Developer','API Integrations','UX/UI Designer.', "Got Enquiries? Let's Chat."]}
+                    strings={['Web and Mobile Dev.', 'USSD Developer','API Integrations','UX/UI Designer.', "Got Enquiries? Let's Chat."]}
                     typeSpeed={40}
                     backSpeed={50}
                     startDelay={300}
