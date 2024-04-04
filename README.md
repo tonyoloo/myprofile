@@ -12,9 +12,17 @@
  https://tonyoloo.github.io/myprofile/
 
 
+# Copyright and License Information:
+© 2024 John Doe. All rights reserved.
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
 # Project Setup Instructions:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
