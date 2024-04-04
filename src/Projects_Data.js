@@ -37,7 +37,7 @@ export default [
     },
     {   
         id: 6,
-        title: 'KEY MICROFINANCE IPRS',
+        title: 'KEY MICROFINANCE IPRS(laravel)',
         link:  'https://www.lolc.com/kenya/',
         image:'keymicro.png',
         category: '.web',
