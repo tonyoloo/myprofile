@@ -16,13 +16,13 @@ export default function Home() {
     <div className='landingPage d-sm-flex justify-content-center align-items-center' id='home'>
       
       <div className='landing-bo bg- p-3 p-md-0 d-flex justify-content-center justify-content-md-center gap-md-2 container-fluid flex-column flex-md-row bg-succes gap-2 align-items-center '>
-        <img src='/images/download.png' className='image_sm d-md-none my-2' />
+        <img src='/myprofile/images/download.png' className='image_sm d-md-none my-2' />
         <div className='landing-items col-10 col-md-6 d-flex bg-dange flex-column justify-content-center py-3 py-md-0 m-md-0 gap-4 gap-md-3 justify-content-sm-aroun justify-content-md-between justify-content-xl-between justify-content-xxl-around align-items-center'>
 
           <div className='landing-text text-center bg-dange col-12'>
             <h2 className='title text-uppercase text-center wow fadeInLeft'>Tony <span className='brian'>Oloo</span></h2>
             <Typed
-                    strings={['Web and Mobile Dev.', 'USSD Developer','API Integrations','UX/UI Designer.', "Got Enquiries? Let's Chat."]}
+                    strings={['Web and Mobile Developer.', 'USSD Developer','API Integrations','UX/UI Designer.', "Got Enquiries? Let's Chat."]}
                     typeSpeed={40}
                     backSpeed={50}
                     startDelay={300}
