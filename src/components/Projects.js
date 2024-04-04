@@ -91,7 +91,7 @@ export default function Projects() {
             {projects}
           </section>
           <section className='load d-flex justify-content-center mt-2 p-1'>
-            <a className=' btn btn-sm btn-primary mt-3 load-more' href='https://github.com/thekhaleed'>See More</a>
+            <a className=' btn btn-sm btn-primary mt-3 load-more' href='https://github.com/tonyoloo'>See More</a>
           </section>
           <br></br>
           <br></br>
