@@ -34,7 +34,7 @@ export default function Home() {
           </div>
           <div className='landing-buttons text-decoration-none d-flex my-3 flex-column bg-secondar col-sm-7 col-10 col-md-9 col-lg-8 col-xl-6 wow fadeInUp'>
             <div className='know-more p-1 text-center py-md-3'>
-              <a  className='text-uppercase text-decoration-none' href='#about'>Know More</a>
+              <a  className='text-uppercase text-decoration-none' href='#about'>Know More!!</a>
             </div>
             <div className='lets-chat p-1 my-2 text-center py-md-3'>
               <a className=' text-uppercase text-decoration-none' href='https://wa.me/254727045828'>Let's Chat</a>
